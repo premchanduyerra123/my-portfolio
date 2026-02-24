@@ -1,0 +1,185 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{Prem Chandu Yerra!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{Prem Chandu Yerra!}}"
+      },
+      "fr": {
+        "title_short": "Salut !",
+        "title_short_nav": "À propos",
+        "title_long_prefix": "Bonjour...",
+        "title_long": "Je suis {{Prem Chandu Yerra !}}"
+      },
+      "ko": {
+        "title_short": "환영합니다!",
+        "title_short_nav": "소개",
+        "title_long_prefix": "안녕하세요...",
+        "title_long": "저는 {{Prem Chandu Yerra}}입니다!"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Telangana, India",
+          "link": {"href": "", "tooltipString": ""},
+          "faIcon": "pi pi-map-marker"
+        },
+        {
+          "id": 2,
+          "label": "premchandu.yerra@gmail.com",
+          "link": {"href": "mailto:premchandu.yerra@gmail.com", "tooltipString": "email_me"},
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "github.com/premchanduyerra",
+          "link": {"href": "https://github.com/premchanduyerra", "tooltipString": "see_on_github"},
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": {"title": "{{A little bit}} about me..."}
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/about-texts-image-1.png",
+          "locales": {
+            "en": {
+              "text": "<p>I am a {{Java Full Stack Developer}} with over [[4+ years]] of experience building scalable web applications using React.js and Spring Boot.</p><p>I have worked extensively on designing RESTful APIs, implementing secure authentication using JWT, optimizing PostgreSQL and SQL Server databases, and migrating legacy systems to modern Spring-based architectures.</p><p>At Zemoso Technologies and Centre for Good Governance, I contributed to distributed systems, performance improvements, and scalable backend solutions while also building reusable frontend components using Atomic Design principles and Storybook.</p><p>I enjoy solving complex backend problems, improving system performance, and continuously learning new technologies. I look forward to collaborating [[with you!]]</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "component": "ArticleTestimonials",
+      "locales": {
+        "en": {"title": "Professional {{Experience Highlights}}"}
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Zemoso Technologies",
+          "img": "images/pictures/testimonial-person-male-1.png",
+          "locales": {
+            "en": {
+              "title": "Software Engineer II (Nov 2024 - Present)",
+              "text": "Designed scalable backend APIs using Spring Boot and MySQL, implemented secure authentication with JWT, and built reusable React components following [[Atomic Design principles]]. Integrated Storybook for better component documentation and testing."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "label": "Centre for Good Governance",
+          "img": "images/pictures/testimonial-person-male-2.png",
+          "locales": {
+            "en": {
+              "title": "Software Developer (Aug 2021 - Nov 2024)",
+              "text": "Developed and maintained government web portals using Java, React.js, and Spring Boot. Migrated legacy Struts applications to [[Spring MVC]], improving scalability and performance. Optimized PostgreSQL and SQL Server queries and supported distributed architecture deployments."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": {"title": "Personal {{Interests}}"}
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-code",
+          "locales": {
+            "en": {
+              "title": "{{Backend Architecture}}",
+              "text": "Learning scalable system design and microservices architecture."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-database",
+          "locales": {
+            "en": {
+              "title": "{{Database Optimization}}",
+              "text": "Improving query performance and database indexing strategies."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-cloud",
+          "locales": {
+            "en": {
+              "title": "{{DevOps & Docker}}",
+              "text": "Exploring containerization and deployment best practices."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-book",
+          "locales": {
+            "en": {
+              "title": "{{Continuous Learning}}",
+              "text": "Actively learning new technologies and improving problem-solving skills."
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-volleyball",
+          "locales": {
+            "en": {
+              "title": "{{Sports & Meditation}}",
+              "text": "Playing volleyball, carrom, and practicing meditation."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

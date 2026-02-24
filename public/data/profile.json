@@ -1,0 +1,61 @@
+{
+  "name": "Prem Chandu Yerra",
+
+  "profilePictureUrl": "images/pictures/profile-picture.jpg",
+  "resumePdfUrl": "documents/Prem_Chandu_Yerra_Resume.pdf",
+
+  "statusCircleVisible": true,
+  "statusCircleVariant": "available",
+  "statusCircleHoverMessage": "status_message_available_for_opportunities",
+
+  "locales": {
+    "en": {
+      "localized_name": "Prem Chandu Yerra",
+      "localized_name_stylized": "[[Prem {{Chandu}} Yerra]]",
+      "status_message_available_for_opportunities": "Open to new opportunities!",
+      "roles": [
+        "Java Full-Stack Developer",
+        "Microservices Architect",
+        "Spring Boot Developer",
+        "React Developer",
+        "AI/HR Tech Builder"
+      ],
+      "name_pronunciation_ipa": "/prem chan-doo yer-ra/",
+      "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+    },
+    "es": {
+      "status_message_available_for_opportunities": "¡Abierto a nuevas oportunidades!",
+      "roles": [
+        "Desarrollador Full-Stack Java",
+        "Arquitecto de Microservicios",
+        "Desarrollador Spring Boot",
+        "Desarrollador React",
+        "Desarrollador de Tecnología IA/RRHH"
+      ]
+    },
+    "fr": {
+      "status_message_available_for_opportunities": "Ouvert à de nouvelles opportunités !",
+      "roles": [
+        "Développeur Full-Stack Java",
+        "Architecte Microservices",
+        "Développeur Spring Boot",
+        "Développeur React",
+        "Développeur IA / HR Tech"
+      ]
+    },
+    "ko": {
+      "localized_name": "프렘 찬두 예라",
+      "localized_name_stylized": "{{프렘}} 찬두 예라",
+      "status_message_available_for_opportunities": "새로운 기회를 찾고 있습니다!",
+      "roles": [
+        "자바 풀스택 개발자",
+        "마이크로서비스 아키텍트",
+        "Spring Boot 개발자",
+        "React 개발자",
+        "AI/HR 테크 개발자"
+      ],
+      "name_pronunciation_ipa": "/peu-rem chan-du ye-ra/",
+      "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+    }
+  }
+}

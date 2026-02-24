@@ -1,0 +1,114 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_apps": "Applications",
+          "category_web": "Web Platforms",
+          "category_utilities": "Enterprise Systems"
+        }
+      },
+      "settings": {
+        "categorize_by": ["category_apps", "category_web", "category_utilities"],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": {"bg": "#2563EB", "fill": "#FFFFFF"},
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "DOST – Student Admission Portal",
+              "text": "Developed a large-scale government admission portal using <b>Java, Spring Boot, React.js, Thymeleaf</b> and <b>PostgreSQL</b>. Integrated Aadhaar verification, OTP authentication, and board exam verification APIs to streamline the student admission process.",
+              "tags": ["Java", "Spring Boot", "React.js", "PostgreSQL", "JWT", "Government Portal"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-hand-holding-heart",
+          "faIconColors": {"bg": "#059669", "fill": "#FFFFFF"},
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "EKALYAN – Scholarship Distribution System",
+              "text": "Built a secure scholarship management system using <b>React.js, Spring Boot, Thymeleaf, REST APIs</b> and <b>SQL Server</b>. Implemented JWT-based authentication and optimized backend APIs for handling large volumes of beneficiary data.",
+              "tags": ["Spring Boot", "React.js", "JWT", "SQL Server", "REST APIs"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_apps",
+          "img": "",
+          "faIcon": "fa-solid fa-utensils",
+          "faIconColors": {"bg": "#F97316", "fill": "#FFFFFF"},
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Diet Plan for Couch Vastav",
+              "text": "Developed a full-stack diet planning application using <b>React.js</b> for frontend and <b>Spring Boot</b> for backend. Designed optimized PostgreSQL schemas and implemented Redux for state management to ensure smooth user experience.",
+              "tags": ["React.js", "Spring Boot", "PostgreSQL", "Redux", "Full Stack"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_utilities",
+          "img": "",
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": {"bg": "#7C3AED", "fill": "#FFFFFF"},
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Appsmith – Dynamic UI & API Platform",
+              "text": "Designed and implemented dynamic UI screens using <b>React.js</b> following Atomic Design principles. Integrated backend APIs using <b>Spring Boot</b> and documented APIs with Swagger. Built scalable data-driven pages based on selected schemas and sources.",
+              "tags": ["React.js", "Spring Boot", "Swagger", "Atomic Design", "APIs"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Skills",
+        "title_short_nav": "Skills",
+        "title_long_prefix": "Explore",
+        "title_long": "My {{Skill Set}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-window-restore",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Full Stack}} Development",
+              "text": "Building end-to-end web applications using React.js on the frontend and Spring Boot on the backend."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-window-maximize",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{REST}} API Development",
+              "text": "Designing secure and scalable REST APIs with Spring Boot, JWT authentication, and clean service-layer architecture."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Database}} Optimization",
+              "text": "Writing efficient queries and improving performance using PostgreSQL and SQL Server."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-shield-halved",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Authentication}} & Security",
+              "text": "Implementing secure access control using JWT tokens and role-based authorization patterns."
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-vial",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Testing}} & Quality",
+              "text": "Writing unit and integration tests using JUnit and Mockito to improve reliability and prevent regressions."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Backend Stack" }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-java",
+          "faIconColors": { "bg": "", "fill": "#007396" },
+          "date": { "year": 2021, "month": 8 },
+          "percentage": 90,
+          "locales": {
+            "en": { "title": "Java", "text": "Core Java with strong backend fundamentals and enterprise application development.", "level": "" }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-leaf",
+          "faIconColors": { "bg": "", "fill": "#6DB33F" },
+          "date": { "year": 2021, "month": 8 },
+          "percentage": 88,
+          "locales": {
+            "en": { "title": "Spring Boot", "text": "Building REST APIs, service-layer architecture, and backend integrations.", "level": "" }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-diagram-project",
+          "faIconColors": { "bg": "", "fill": "#111827" },
+          "date": { "year": 2022, "month": 1 },
+          "percentage": 80,
+          "locales": {
+            "en": { "title": "Spring MVC", "text": "Web MVC development and migration from legacy Struts applications.", "level": "" }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "", "fill": "#2563EB" },
+          "date": { "year": 2021, "month": 10 },
+          "percentage": 82,
+          "locales": {
+            "en": { "title": "PostgreSQL", "text": "Schema design, query optimization, and performance improvements.", "level": "" }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "", "fill": "#DC2626" },
+          "date": { "year": 2021, "month": 10 },
+          "percentage": 78,
+          "locales": {
+            "en": { "title": "SQL Server", "text": "Query writing and optimization for enterprise reporting and portals.", "level": "" }
+          }
+        },
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-solid fa-key",
+          "faIconColors": { "bg": "", "fill": "#F59E0B" },
+          "date": { "year": 2023, "month": 1 },
+          "percentage": 75,
+          "locales": {
+            "en": { "title": "JWT Security", "text": "Token-based authentication and secure API access control.", "level": "" }
+          }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "#374151" },
+          "date": { "year": 2023, "month": 6 },
+          "percentage": 72,
+          "locales": {
+            "en": { "title": "JPA / Hibernate", "text": "ORM mapping, repository patterns, and data access optimization.", "level": "" }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-file-lines",
+          "faIconColors": { "bg": "", "fill": "#0EA5E9" },
+          "date": { "year": 2024, "month": 1 },
+          "percentage": 70,
+          "locales": {
+            "en": { "title": "Swagger / OpenAPI", "text": "Documenting APIs for teams and consumers using Swagger.", "level": "" }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Frontend Stack" }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-react",
+          "faIconColors": { "bg": "", "fill": "#61DAFB", "fillLight": "#317385" },
+          "date": { "year": 2021, "month": 9 },
+          "percentage": 88,
+          "locales": {
+            "en": { "title": "React.js", "text": "Reusable components, hooks, state management, and performance improvements.", "level": "" }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-store",
+          "faIconColors": { "bg": "", "fill": "#7C3AED" },
+          "date": { "year": 2022, "month": 6 },
+          "percentage": 82,
+          "locales": {
+            "en": { "title": "Redux", "text": "State management for complex flows and predictable UI behavior.", "level": "" }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-brands fa-js",
+          "faIconColors": { "bg": "", "fill": "#F7DF1E", "fillLight": "#a69617" },
+          "date": { "year": 2021, "month": 8 },
+          "percentage": 85,
+          "locales": {
+            "en": { "title": "JavaScript (ES6+)", "text": "Building interactive UI features and integrating with APIs.", "level": "" }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "#0F172A" },
+          "date": { "year": 2023, "month": 1 },
+          "percentage": 78,
+          "locales": {
+            "en": { "title": "TypeScript", "text": "Writing safer UI code with strong typing and better maintainability.", "level": "" }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-brands fa-html5",
+          "faIconColors": { "bg": "", "fill": "#E34F26" },
+          "date": { "year": 2021, "month": 8 },
+          "percentage": 80,
+          "locales": {
+            "en": { "title": "HTML5", "text": "Building structured, accessible UI screens.", "level": "" }
+          }
+        },
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-brands fa-css3-alt",
+          "faIconColors": { "bg": "", "fill": "#1572B6" },
+          "date": { "year": 2021, "month": 8 },
+          "percentage": 70,
+          "locales": {
+            "en": { "title": "CSS3", "text": "Responsive layouts and clean UI styling.", "level": "" }
+          }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-book",
+          "faIconColors": { "bg": "", "fill": "#111827" },
+          "date": { "year": 2024, "month": 11 },
+          "percentage": 70,
+          "locales": {
+            "en": { "title": "Storybook", "text": "UI documentation and component testing in isolation.", "level": "" }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Tools" }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-docker",
+          "faIconColors": { "bg": "", "fill": "#2496ED" },
+          "date": { "year": 2023, "month": 1 },
+          "percentage": 70,
+          "locales": {
+            "en": { "title": "Docker", "text": "Containerization for local development and deployments.", "level": "" }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-brands fa-git-alt",
+          "faIconColors": { "bg": "", "fill": "#F05032" },
+          "date": { "year": 2021, "month": 8 },
+          "percentage": 85,
+          "locales": {
+            "en": { "title": "Git / GitLab / SVN", "text": "Version control, branching, and collaboration workflows.", "level": "" }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-bug",
+          "faIconColors": { "bg": "", "fill": "#EF4444" },
+          "date": { "year": 2022, "month": 6 },
+          "percentage": 75,
+          "locales": {
+            "en": { "title": "JUnit / Mockito", "text": "Unit testing and mocking for backend reliability.", "level": "" }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Languages" }
+      },
+      "settings": {
+        "max_items_per_row": 1,
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "round_icons": true
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-language",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "English",
+              "text": "Professional working proficiency.",
+              "level": "Professional"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
