@@ -5,6 +5,11 @@
 
 @import "themes/variables-theme-dark";
 @import "themes/variables-theme-light";
+@import "themes/variables-theme-midnight";
+@import "themes/variables-theme-glass";
+@import "themes/variables-theme-sunset";
+@import "themes/variables-theme-cocoa";
+@import "themes/variables-theme-ozkan";
 
 /** Overriding Bootstrap's contrast ratio. **/
 $min-contrast-ratio: 1.5 !default;

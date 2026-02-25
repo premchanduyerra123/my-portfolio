@@ -1,0 +1,90 @@
+@import "/src/styles/extend.scss";
+
+div.coffee-loader {
+    --coffee-primary: var(--theme-primary, #36ad59);
+    --coffee-secondary: var(--theme-secondary, #8fa2b2);
+    --coffee-cup: var(--theme-texts, #e6edf3);
+    --coffee-bg: rgba(0, 0, 0, 0.15);
+    --coffee-size: 120px;
+
+    position: relative;
+    width: var(--coffee-size);
+    height: calc(var(--coffee-size) * 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.coffee-loader-hidden {
+    opacity: 0;
+    transition: 0.2s opacity ease-in;
+}
+
+div.coffee-loader-steam {
+    position: absolute;
+    width: 10px;
+    height: 36px;
+    border-radius: 10px;
+    background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.45)
+    );
+    top: 0;
+    animation: coffee-steam 1.6s ease-in-out infinite;
+    filter: blur(0.5px);
+}
+
+div.coffee-loader-steam-1 { left: 40%; animation-delay: 0s; }
+div.coffee-loader-steam-2 { left: 50%; animation-delay: 0.2s; }
+div.coffee-loader-steam-3 { left: 60%; animation-delay: 0.4s; }
+
+div.coffee-loader-cup {
+    position: relative;
+    width: 72px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    background: var(--coffee-cup);
+    box-shadow: 0 10px 20px var(--coffee-bg);
+    overflow: hidden;
+    animation: coffee-bob 2s ease-in-out infinite;
+}
+
+div.coffee-loader-liquid {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(180deg, var(--coffee-secondary), var(--coffee-primary));
+    transform-origin: center;
+    animation: coffee-liquid 2.4s ease-in-out infinite;
+}
+
+div.coffee-loader-handle {
+    position: absolute;
+    right: -18px;
+    top: 10px;
+    width: 22px;
+    height: 26px;
+    border-radius: 12px;
+    border: 4px solid var(--coffee-cup);
+    border-left: 4px solid transparent;
+}
+
+@keyframes coffee-steam {
+    0% { transform: translateY(10px) scaleX(0.9); opacity: 0; }
+    40% { opacity: 0.6; }
+    100% { transform: translateY(-12px) scaleX(1.1); opacity: 0; }
+}
+
+@keyframes coffee-bob {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes coffee-liquid {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(3px); }
+    100% { transform: translateY(0); }
+}

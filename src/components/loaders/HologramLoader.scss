@@ -1,0 +1,62 @@
+@import "/src/styles/extend.scss";
+
+div.hologram-loader {
+    --holo-primary: var(--theme-primary, #36ad59);
+    --holo-secondary: var(--theme-secondary, #8fa2b2);
+    --holo-size: 160px;
+
+    position: relative;
+    width: var(--holo-size);
+    height: var(--holo-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.hologram-loader-hidden {
+    opacity: 0;
+    transition: 0.2s opacity ease-in;
+}
+
+div.hologram-loader-body {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,0.2));
+    overflow: hidden;
+}
+
+svg.hologram-loader-figure {
+    width: 120px;
+    height: 120px;
+    fill: rgba(255,255,255,0.55);
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.15));
+    animation: holo-figure 1.8s ease-in-out infinite;
+}
+
+div.hologram-loader-scanline {
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    left: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+    filter: blur(0.6px);
+    mix-blend-mode: screen;
+    animation: holo-scan 1.8s ease-in-out infinite;
+}
+
+@keyframes holo-scan {
+    0% { top: -10%; opacity: 0; }
+    30% { opacity: 0.6; }
+    50% { opacity: 0.3; }
+    100% { top: 110%; opacity: 0; }
+}
+
+@keyframes holo-figure {
+    0% { transform: translateY(1px); opacity: 0.75; }
+    50% { transform: translateY(-2px); opacity: 1; }
+    100% { transform: translateY(1px); opacity: 0.75; }
+}

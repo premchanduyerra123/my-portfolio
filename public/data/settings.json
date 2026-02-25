@@ -8,8 +8,23 @@
 
     "preloaderSettings": {
         "enabled": true,
-        "title": "React <strong>Portfolio</strong>",
-        "subtitle": "by Ryan Balieiro",
+        "title": "Prem.dev",
+        "subtitle": "Engineering Ideas Into Reality",
+        "randomVariants": [
+            {"title": "Prem.dev", "subtitle": "Engineering Ideas Into Reality"},
+            {"title": "Prem.sys", "subtitle": "Architecting Scalable Solutions"},
+            {"title": "Prem.codes", "subtitle": "Turning Coffee Into Microservices"},
+            {"title": "Prem.stack", "subtitle": "Full Stack. Full Power."},
+            {"title": "Prem.build()", "subtitle": "Deployed to Production Since 2021"},
+            {"title": "Prem_v2.0", "subtitle": "Currently Debugging Life"},
+            {"title": "System.Prem", "subtitle": "Optimized for Performance"},
+            {"title": "init Prem", "subtitle": "Compiling Scalable Systems"},
+            {"title": "Prem();", "subtitle": "Runs on Coffee & Deadlines"},
+            {"title": "Prem.exe", "subtitle": "Stable Release Since 2021"},
+            {"title": "CodeEater.exe", "subtitle": "Consuming Bugs Since 2021"},
+            {"title": "ByteHunter", "subtitle": "Building Systems. Hunting Bugs."},
+            {"title": "StackDevourer", "subtitle": "Scalable Systems Specialist"}
+        ],
         "logoOffset": {
             "right": 14,
             "top": 2,
@@ -21,7 +36,7 @@
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
         "defaultLanguageId": "en",
-        "defaultThemeId": "dark",
+        "defaultThemeId": "ozkan",
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": false
     },
@@ -70,6 +85,61 @@
                 "es": {"name": "Modo Claro"},
                 "fr": {"name": "Mode Clair"},
                 "ko": {"name": "라이트 모드"}
+            }
+        },
+        {
+            "id": "midnight",
+            "icon": "fa-solid fa-star",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Midnight"},
+                "es": {"name": "Medianoche"},
+                "fr": {"name": "Minuit"},
+                "ko": {"name": "Midnight"}
+            }
+        },
+        {
+            "id": "glass",
+            "icon": "fa-solid fa-droplet",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Glass"},
+                "es": {"name": "Cristal"},
+                "fr": {"name": "Verre"},
+                "ko": {"name": "Glass"}
+            }
+        },
+        {
+            "id": "sunset",
+            "icon": "fa-solid fa-sun",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Sunset"},
+                "es": {"name": "Atardecer"},
+                "fr": {"name": "Coucher de soleil"},
+                "ko": {"name": "Sunset"}
+            }
+        },
+        {
+            "id": "cocoa",
+            "icon": "fa-solid fa-mug-hot",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Cocoa"},
+                "es": {"name": "Cacao"},
+                "fr": {"name": "Cacao"},
+                "ko": {"name": "Cocoa"}
+            }
+        },
+        {
+            "id": "ozkan",
+            "icon": "fa-solid fa-wave-square",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Ozkan"},
+                "es": {"name": "Ozkan"},
+                "fr": {"name": "Ozkan"},
+                "ko": {"name": "Ozkan"}
             }
         }
     ],

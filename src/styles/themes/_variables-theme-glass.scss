@@ -1,0 +1,90 @@
+/**
+ * @author Ryan Balieiro
+ * @description Glass theme colors.
+ */
+
+@import "theme-variables-builder";
+
+$primary: #2E9BFF;
+$secondary: #7C8FA3;
+$dark: #DCE7F4;
+$danger: #C24747;
+$muted: #6B7A8A;
+
+$base-bg: #DDE7F2;
+$base-bg-light: #E8F0F8;
+$base-bg-dark: #CBD9E6;
+
+$texts: #1A2430;
+$texts-inverted: #F4F8FC;
+
+$base-container-bg: #F4F8FC;
+$base-popover-bg: #EAF1F7;
+$base-boards: #EEF4FA;
+$base-info-badges: #E1EAF3;
+$empty: #FFFFFF;
+$empty-accent: #D5E2EF;
+
+$borders: #D3DEE9;
+$scrollbar-track: #E6EEF6;
+$scrollbar-thumb: #94A9BD;
+
+[data-theme="glass"] {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                  false,
+
+        // Base Colors...
+        /** PRIMARY: **/                    $primary,
+        /** SECONDARY: **/                  $secondary,
+        /** DARK: **/                       $dark,
+        /** DANGER: **/                     $danger,
+        /** MUTED: **/                      $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                         $base-bg,
+        /** BG CONTRAST: **/                $base-bg-light,
+        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** TEXTS: **/                      $texts,
+        /** TEXTS (INVERTED): **/           $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/              $base-boards,
+        /** NAV MOBILE: **/                 $texts,
+        /** NAV MOBILE BORDER: **/          $borders,
+
+        /** NAV MOBILE HOVER BG: **/        $base-boards,
+        /** NAV MOBILE HOVER: **/           $primary,
+
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/ $borders,
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                 $base-container-bg,
+        /** CARD BG: **/                    $base-container-bg,
+        /** POPUPS BG: **/                  $base-popover-bg,
+        /** BOARDS: **/                     $base-boards,
+        /** INFO BADGE BG: **/              $base-info-badges,
+        /** INFO BADGE **/                  $texts,
+        /** EMPTY **/                       $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/            $borders,
+        /** SCROLLBAR TRACK: **/            $scrollbar-track,
+        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+    );
+
+    --theme-background-gradient: linear-gradient(135deg, #CBD9E6 0%, #DDE7F2 45%, #E8F0F8 100%);
+    --theme-background-gradient-start: #CBD9E6;
+    --theme-background-gradient-end: #E8F0F8;
+    --theme-section-gradient: linear-gradient(145deg, #F4F8FC 0%, #EEF4FA 100%);
+    --theme-card-gradient: linear-gradient(160deg, #F4F8FC 0%, #EEF4FA 100%);
+    --theme-boards-gradient: linear-gradient(160deg, #EEF4FA 0%, #E1EAF3 100%);
+    --theme-popups-gradient: linear-gradient(160deg, #EAF1F7 0%, #F4F8FC 100%);
+
+    --theme-primary-gradient: linear-gradient(135deg, #2E9BFF 0%, #1E74D8 100%);
+    --theme-primary-gradient-hover: linear-gradient(135deg, #4AA9FF 0%, #2B82E3 100%);
+    --theme-secondary-gradient: linear-gradient(135deg, #7C8FA3 0%, #5E7083 100%);
+    --theme-secondary-gradient-hover: linear-gradient(135deg, #93A4B5 0%, #6B7D90 100%);
+}

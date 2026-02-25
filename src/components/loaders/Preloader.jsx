@@ -1,7 +1,7 @@
 import "./Preloader.scss"
 import React, {useEffect, useState} from 'react'
-import PacMan from "/src/components/widgets/PacMan.jsx"
 import Logo from "/src/components/widgets/Logo.jsx"
+import HologramLoader from "/src/components/loaders/HologramLoader.jsx"
 import {useScheduler} from "/src/hooks/scheduler.js"
 import {useUtils} from "/src/hooks/utils.js"
 import {useConstants} from "/src/hooks/constants.js"
@@ -22,8 +22,16 @@ function Preloader({ children, preloaderSettings }) {
     const constants = useConstants()
 
     const enabled = preloaderSettings?.enabled
-    const title = preloaderSettings?.title || ""
-    const subtitle = preloaderSettings?.subtitle || ""
+    const randomVariants = preloaderSettings?.randomVariants
+    const [randomVariant] = useState(() => {
+        if(!Array.isArray(randomVariants) || randomVariants.length === 0)
+            return null
+        const index = Math.floor(Math.random() * randomVariants.length)
+        return randomVariants[index] || null
+    })
+
+    const title = randomVariant?.title || preloaderSettings?.title || ""
+    const subtitle = randomVariant?.subtitle || preloaderSettings?.subtitle || ""
     const logoOffset = preloaderSettings?.logoOffset || {}
 
     const [state, setState] = useState(PreloaderState.NONE)
@@ -158,7 +166,7 @@ function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, sho
 
     const [didLoadLogo, setDidLoadLogo] = useState(false)
 
-    const [isPacManHidden, setIsPacManHidden] = useState(true)
+    const [isLoaderHidden, setIsLoaderHidden] = useState(true)
 
     const hiddenClass = isHiding ?
         `preloader-window-hidden` : ``
@@ -170,21 +178,20 @@ function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, sho
 
     useEffect(() => {
         if(!showElements) {
-            setIsPacManHidden(true)
+            setIsLoaderHidden(true)
             return
         }
 
         scheduler.clearAllWithTag("preloader-pacman")
         scheduler.schedule(() => {
-            setIsPacManHidden(false)
+            setIsLoaderHidden(false)
         }, 100, "preloader-pacman")
     }, [showElements])
 
     return (
         <div className={`preloader-window ${hiddenClass}`}>
             <div className={`preloader-window-content`}>
-                <PacMan variant={PacMan.ColorVariants.LOADER}
-                        hidden={isPacManHidden}/>
+                <HologramLoader hidden={isLoaderHidden}/>
 
                 <PreloaderWindowInfo title={title}
                                      subtitle={subtitle}

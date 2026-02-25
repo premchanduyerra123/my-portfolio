@@ -1,0 +1,24 @@
+@import "/src/styles/extend.scss";
+
+div.liquid-loader {
+    --liquid-color: var(--theme-primary, #36ad59);
+    --liquid-size: 140px;
+
+    width: var(--liquid-size);
+    height: var(--liquid-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.liquid-loader-hidden {
+    opacity: 0;
+    transition: 0.2s opacity ease-in;
+}
+
+svg.liquid-loader-blob {
+    width: 100%;
+    height: 100%;
+    fill: var(--liquid-color);
+    filter: drop-shadow(0 12px 24px rgba(0,0,0,0.2));
+}
