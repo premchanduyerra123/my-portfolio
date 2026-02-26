@@ -43,7 +43,7 @@
           "img": "",
           "faIcon": "fa-solid fa-school",
           "faIconColors": { "bg": "", "fill": "" },
-          "dateStart": { "year": 2016, "month": 6 },
+          "dateStart": { "year": 2015, "month": 6 },
           "dateEnd": { "year": 2017, "month": 5 },
           "locales": {
             "en": {

@@ -15,11 +15,10 @@
       "status_message_available_for_opportunities": "Open to new opportunities!",
       "roles": [
         "Java Full-Stack Developer",
+        "Senior Engineer",
         "Microservices Architect",
         "Spring Boot Developer",
-        "React Developer",
-        "AI/HR Tech Builder"
-      ],
+        "React Developer"      ],
       "name_pronunciation_ipa": "/prem chan-doo yer-ra/",
       "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
     },
@@ -29,9 +28,8 @@
         "Desarrollador Full-Stack Java",
         "Arquitecto de Microservicios",
         "Desarrollador Spring Boot",
-        "Desarrollador React",
-        "Desarrollador de Tecnología IA/RRHH"
-      ]
+        "Desarrollador React"
+       ]
     },
     "fr": {
       "status_message_available_for_opportunities": "Ouvert à de nouvelles opportunités !",
@@ -39,8 +37,7 @@
         "Développeur Full-Stack Java",
         "Architecte Microservices",
         "Développeur Spring Boot",
-        "Développeur React",
-        "Développeur IA / HR Tech"
+        "Développeur React"
       ]
     },
     "ko": {

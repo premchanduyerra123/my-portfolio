@@ -75,7 +75,7 @@
           "img": "images/pictures/about-texts-image-1.png",
           "locales": {
             "en": {
-              "text": "<p>I am a {{Java Full Stack Developer}} with over [[4+ years]] of experience building scalable web applications using React.js and Spring Boot.</p><p>I have worked extensively on designing RESTful APIs, implementing secure authentication using JWT, optimizing PostgreSQL and SQL Server databases, and migrating legacy systems to modern Spring-based architectures.</p><p>At Zemoso Technologies and Centre for Good Governance, I contributed to distributed systems, performance improvements, and scalable backend solutions while also building reusable frontend components using Atomic Design principles and Storybook.</p><p>I enjoy solving complex backend problems, improving system performance, and continuously learning new technologies. I look forward to collaborating [[with you!]]</p>"
+              "text": "<p>I am a {{Java Full Stack Developer}} with over [[4.6+ years]] of experience building scalable web applications using React.js and Spring Boot.</p><p>I have worked extensively on designing RESTful APIs, implementing secure authentication using JWT, optimizing PostgreSQL and SQL Server databases, and migrating legacy systems to modern Spring-based architectures.</p><p>At Welspun Transformation Services, Zemoso Technologies, and Centre for Good Governance, I contributed to distributed systems, performance improvements, and scalable backend solutions while also building reusable frontend components using Atomic Design principles and Storybook.</p><p>I enjoy solving complex backend problems, improving system performance, and continuously learning new technologies. I look forward to collaborating [[with you!]]</p>"
             }
           }
         }
@@ -95,19 +95,30 @@
       "items": [
         {
           "id": 1,
-          "label": "Zemoso Technologies",
-          "img": "images/pictures/testimonial-person-male-1.png",
+          "label": "Welspun Transformation Services Limited",
+          "img": "images/company_logos/welspun_logo.png",
           "locales": {
             "en": {
-              "title": "Software Engineer II (Nov 2024 - Present)",
-              "text": "Designed scalable backend APIs using Spring Boot and MySQL, implemented secure authentication with JWT, and built reusable React components following [[Atomic Design principles]]. Integrated Storybook for better component documentation and testing."
+              "title": "Senior Engineer (Apr 2025 - Present)",
+              "text": "Designed and developed the WelHire recruitment platform using Spring Boot and React.js, implemented CV parsing and JD–CV matching, built secure APIs with JWT/RBAC, and optimized PostgreSQL/MongoDB queries with async processing."
             }
           }
         },
         {
           "id": 2,
+          "label": "Zemoso Technologies",
+          "img": "images/company_logos/zemoso_logo.png",
+          "locales": {
+            "en": {
+              "title": "Software Engineer II (Nov 2024 - Apr 2025)",
+              "text": "Built reusable React components following [[Atomic Design principles]], integrated Storybook for documentation, and developed secure Spring Boot APIs with JWT. Ensured reliability through JUnit/Mockito testing."
+            }
+          }
+        },
+        {
+          "id": 3,
           "label": "Centre for Good Governance",
-          "img": "images/pictures/testimonial-person-male-2.png",
+          "img": "images/company_logos/cgg_logo.jpg",
           "locales": {
             "en": {
               "title": "Software Developer (Aug 2021 - Nov 2024)",

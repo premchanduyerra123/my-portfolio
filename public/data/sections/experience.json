@@ -24,15 +24,40 @@
           "img": "",
           "faIcon": "fa-solid fa-briefcase",
           "faIconColors": { "bg": "", "fill": "" },
-          "dateStart": { "year": 2024, "month": 11 },
+          "dateStart": { "year": 2025, "month": 4 },
           "dateEnd": { "now": true },
+          "locales": {
+            "en": {
+              "title": "{{Senior Engineer}}",
+              "province": "Telangana",
+              "country": "India",
+              "institution": "Welspun Transformation Services Limited",
+              "text": "Designed and developed a microservices-based recruitment platform (WelHire) using Spring Boot and React.js. Implemented CV parsing, JD–CV matching, AI-driven scoring, and automated interview scheduling. Built secure REST APIs with JWT and role-based access control, optimized PostgreSQL and MongoDB queries, and added async processing for background sourcing pipelines.",
+              "list": [
+                "Built WelHire recruitment automation platform",
+                "Implemented JWT auth and role-based access control",
+                "Optimized PostgreSQL and MongoDB queries",
+                "Added async processing and scheduled pipelines",
+                "Delivered React + TypeScript dashboards"
+              ],
+              "tags": ["Java", "Spring Boot", "Microservices", "React.js", "TypeScript", "PostgreSQL", "MongoDB", "JWT"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-briefcase",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2024, "month": 11 },
+          "dateEnd": { "year": 2025, "month": 4 },
           "locales": {
             "en": {
               "title": "{{Software Engineer II}}",
               "province": "Telangana",
               "country": "India",
               "institution": "Zemoso Technologies",
-              "text": "Designing and developing scalable backend APIs using Spring Boot and MySQL while building reusable React components following [[Atomic Design principles]]. Integrated Storybook for component documentation and testing. Implemented secure authentication using JWT and ensured reliability through unit and integration testing with JUnit and Mockito.",
+              "text": "Designed and developed scalable backend APIs using Spring Boot and MySQL while building reusable React components following [[Atomic Design principles]]. Integrated Storybook for component documentation and testing. Implemented secure authentication using JWT and ensured reliability through unit and integration testing with JUnit and Mockito.",
               "list": [
                 "Developed RESTful APIs using Spring Boot",
                 "Implemented JWT-based authentication",

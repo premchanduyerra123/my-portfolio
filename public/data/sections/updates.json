@@ -26,7 +26,7 @@
           "faIcon": "fa-solid fa-briefcase",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "title": "3+", "text": "Years of experience" }
+            "en": { "title": "4.6+", "text": "Years of experience" }
           }
         },
         {
@@ -35,7 +35,7 @@
           "faIcon": "fa-solid fa-building",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "title": "02", "text": "Organizations" }
+            "en": { "title": "03", "text": "Organizations" }
           }
         },
         {
@@ -100,6 +100,25 @@
       "items": [
         {
           "id": 1,
+          "date": { "year": 2025, "month": 4 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Joined {{Welspun Transformation Services}} as Senior Engineer",
+              "province": "",
+              "country": "India",
+              "institution": "Welspun Transformation Services Limited",
+              "text": "Building the WelHire recruitment platform with Spring Boot + React, implementing CV parsing, JD–CV matching, and secure JWT/RBAC APIs while optimizing PostgreSQL/MongoDB queries and async pipelines."
+            }
+          }
+        },
+        {
+          "id": 2,
           "date": { "year": 2024, "month": 11 },
           "preview": {
             "links": [],
@@ -118,7 +137,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 3,
           "date": { "year": 2023, "month": 6 },
           "preview": {
             "links": [],
@@ -137,7 +156,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 4,
           "date": { "year": 2023, "month": 1 },
           "preview": {
             "links": [],
@@ -156,7 +175,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 5,
           "date": { "year": 2022, "month": 7 },
           "preview": {
             "links": [],

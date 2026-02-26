@@ -369,6 +369,36 @@
               "level": "Professional"
             }
           }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-language",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Telugu",
+              "text": "Native proficiency.",
+              "level": "Native"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-language",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Hindi",
+              "text": "Professional working proficiency.",
+              "level": "Professional"
+            }
+          }
         }
       ]
     }
