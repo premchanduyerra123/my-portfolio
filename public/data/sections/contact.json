@@ -67,7 +67,7 @@
           "id": 3,
           "faIcon": "fa-brands fa-linkedin",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": "linkedin.com/in/prem-chandu-yerra-a10549190",
+          "label": "linkedin.com/in/premchanduyerra",
           "link": { "href": "https://www.linkedin.com/in/premchanduyerra/", "tooltipString": "open_profile" },
           "copyToClipboardButton": false,
           "locales": {
