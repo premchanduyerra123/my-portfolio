@@ -1,7 +1,7 @@
 {
   "name": "Prem Chandu Yerra",
 
-  "profilePictureUrl": "images/pictures/profile-picture.jpg",
+  "profilePictureUrl": "images/pictures/og-image2.png",
   "resumePdfUrl": "documents/Prem_Java_4Years_Resume.pdf",
 
   "statusCircleVisible": true,
@@ -18,9 +18,7 @@
         "Senior Engineer",
         "Microservices Architect",
         "Spring Boot Developer",
-        "React Developer"      ],
-      "name_pronunciation_ipa": "/prem chan-doo yer-ra/",
-      "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+        "React Developer"      ] 
     },
     "es": {
       "status_message_available_for_opportunities": "¡Abierto a nuevas oportunidades!",

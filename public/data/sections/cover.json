@@ -72,7 +72,7 @@
       "items": [
         {
           "id": 1,
-          "img": "images/pictures/about-texts-image-1.png",
+          "img": "images/pictures/about-texts-image-2.png",
           "locales": {
             "en": {
               "text": "<p>I am a {{Java Full Stack Developer}} with over [[4.6+ years]] of experience building scalable web applications using React.js and Spring Boot.</p><p>I have worked extensively on designing RESTful APIs, implementing secure authentication using JWT, optimizing PostgreSQL and SQL Server databases, and migrating legacy systems to modern Spring-based architectures.</p><p>At Welspun Transformation Services, Zemoso Technologies, and Centre for Good Governance, I contributed to distributed systems, performance improvements, and scalable backend solutions while also building reusable frontend components using Atomic Design principles and Storybook.</p><p>I enjoy solving complex backend problems, improving system performance, and continuously learning new technologies. I look forward to collaborating [[with you!]]</p>"
